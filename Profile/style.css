@@ -1,0 +1,145 @@
+html {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --primary-bg: #171717;
+    --secondary-bg: #262626;
+    --accent-bg: #4f46e5;
+
+    --primary-color: #fff;
+    --secondary-color: rgba(255,255,255, 70%);
+    --accent-color: #818cf8;
+
+    --border-color: rgba(255,255,255, 30%);
+    
+    --username-size: 32px;
+    --title-size: 28px;
+    --subtitle: 24px;
+}
+
+body {
+    background-image: url(images/banner.jpg);
+    background-size: cover;
+}
+
+
+.container {
+    height: 100vh;
+    backdrop-filter: blur(20px);
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.box {
+    color: white;
+    width: 180vh;
+    backdrop-filter: blur(20px);
+    height: 90vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 50px;
+    margin:1%;
+border-radius: 10px;}
+
+.profile-header {
+    backdrop-filter: blur(20px);
+    background: url(images/banner.jpg) center;
+    background-size: cover;
+    margin: 10px;
+    border-radius: 30px;
+    position: relative; 
+    padding: 30px;
+    display: flex;
+    font-family: sans-serif;
+}
+
+.text1 {
+    backdrop-filter: blur(10px);
+background: rgba(0, 0, 0, 0.3);
+display: flex; flex-direction: column;
+margin-left: 20px;
+padding: 15px;
+border-radius: 10px;
+}
+
+.text2 {
+    backdrop-filter: blur(10px);
+background: rgba(0, 0, 0, 0.3);
+display: flex; flex-direction: column;
+margin-left: 20px;
+/* padding: 15px; */
+padding-top: 15px;
+padding-right: 15px;
+padding-bottom: 15px;
+padding-left: 15px;
+border-radius: 10px;}
+/* line-height: 50px;} */
+
+.text3 {
+backdrop-filter: blur(10px);
+background: rgba(0, 0, 0, 0.3);
+display: flex; flex-direction: column;
+margin-left: 20px;
+padding: 15px;
+border-radius: 10px;}
+/* line-height: 50px;} */
+
+.skills-logo {display: flex;
+margin-bottom: 5%;}
+
+h1 {font-size: 45px;}
+h2 {font-size: 20px;}
+
+.hvr-grow {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+  }
+  .hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.profiles-log0 {
+    transition: 0.2s;
+  }
+  .profiles-log0:hover {  transform: scale(1.2); }
+
+.skills-logo-img {
+    
+        transition: all .2s ease-in-out;
+      }
+      .skills-logo-img:hover {  transform: scale(1.2); }
+    
+
+.github-info {display: flex; float: left;
+padding-top: 5%;
+padding-left: 1%;}
+
+.github-info2 {display: flex;
+    padding-top: 1%;
+    padding-left: 1%;}
+
+    .github-info3 {display: flex;
+        padding-top: 1%;
+        padding-left: 1%;}
+    
+
+  
